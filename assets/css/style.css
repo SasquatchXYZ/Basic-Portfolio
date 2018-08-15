@@ -1,14 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /*width: 960px;*/
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/sayagata-400px.png") repeat;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+#top_nav {
+    width: 960px;
+    position: relative;
+    margin: 0 Auto 0 Auto;
+}
+#top {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#nav {
+    color: #777777;
+    float: right;
+    margin-right: 0;
+}
+li {
+    display: inline-grid;
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover {
+    text-decoration: none;
+    color: #777777;
+}
+a:active {
+    text-decoration: none;
+    color: #777777;
+}
 h1, h2, h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
 }
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.content {
+    width: 960px;
+    clear: both;
+    min-height: calc(100vh - 110px);
+    display: block;
+    position: relative;
+    margin: 0 Auto 0 Auto;
+    /*padding-bottom: 50px;*/
 }
-
-body {
-    width: 960px; margin: 0 auto;
+#profile-picture {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-body {
-    background-image: url("../images/sayagata-400px.png"); background-repeat: repeat;
+#about-me {
+    clear: both;
+    width: 960px;
+    background: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    background: #666666;
+    height: 50px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
 }
