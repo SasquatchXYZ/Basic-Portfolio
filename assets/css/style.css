@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+p {
+    color: #777777;
+}
+
 body {
     /*width: 960px;*/
     margin: 0 auto;
@@ -39,6 +44,24 @@ body {
     float: right;
     margin-right: 0;
 }
+
+#nav_left {
+    border-right: 1px solid #cccccc;
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+#nav_center {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav_right {
+    border-left: 1px solid #cccccc;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
 li {
     display: inline-grid;
     padding: 10px;
@@ -87,13 +110,51 @@ h1, h2, h3 {
     padding: 30px;
     border: 1px solid #dddddd;
 }
+
+p#footer {
+    color: #ffffff;
+    font-size: 10px;
+    position: relative;
+    padding: 0;
+    margin-top: 25px;
+}
 .footer {
     position: absolute;
     bottom: 0;
-    color: #ffffff;
+    color: #777777;
     text-align: center;
     background: #666666;
     height: 50px;
     width: 100%;
     border-top: 5px solid #4aaaa5;
+}
+
+input[type="text"] {
+    width: 900px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    color: #777777;
+}
+
+input[type="email"] {
+    width: 900px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    color: #777777;
+}
+
+textarea[name="message"] {
+    width: 900px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    color: #777777;
+}
+
+input[type="submit"] {
+    border: #4aaaa5;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
