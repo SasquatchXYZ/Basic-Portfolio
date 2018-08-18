@@ -2,18 +2,14 @@
 * {
     box-sizing: border-box;
 }
-
 p {
     color: #777777;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
-
 body {
-    /*width: 960px;*/
     margin: 0 auto;
     height: 100%;
     position: relative;
@@ -51,24 +47,20 @@ body {
     float: right;
     margin-right: 0;
 }
-
 #nav_left {
     border-right: 1px solid #cccccc;
     margin-right: 0;
     padding-right: 20px;
 }
-
 #nav_center {
     padding-left: 0;
     padding-right: 0;
 }
-
 #nav_right {
     border-left: 1px solid #cccccc;
     margin-left: 0;
     padding-left: 20px;
 }
-
 li {
     display: inline-grid;
     padding: 10px;
@@ -82,7 +74,7 @@ a:visited {
     color: #777777;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: line-through;
     color: #777777;
 }
 a:active {
@@ -122,7 +114,6 @@ p#footer {
     padding: 0;
     margin-top: 25px;
 }
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -140,7 +131,6 @@ p#footer {
     height: 280px;
     margin: 0 auto 0 auto;
 }
-
 .im1,.im2,.im3,.im4,.im5 {
     position: relative;
     float: left;
@@ -149,7 +139,6 @@ p#footer {
     height: 250px;
     width: 275px;
 }
-
 .title1,.title2,.title3,.title4,.title5 {
     position: absolute;
     bottom: 10px;
@@ -160,7 +149,6 @@ p#footer {
     background-color: #4aaaa5;
     text-align: center;
 }
-
 a#photo1,#photo2,#photo3,#photo4,#photo5 {
     position: absolute;
     left: 0;
@@ -170,6 +158,10 @@ a#photo1,#photo2,#photo3,#photo4,#photo5 {
     width: 275px;
     font-weight: normal;
 }
+#photo1:hover,#photo2:hover,#photo3:hover,#photo4:hover,#photo5:hover {
+    color: #00FFF2;
+    text-decoration: overline;
+}
 /* Code for the Contact Page Styling */
 input[type="text"] {
     width: 900px;
@@ -177,21 +169,18 @@ input[type="text"] {
     padding: 5px;
     color: #777777;
 }
-
 input[type="email"] {
     width: 900px;
     border: 1px solid #cccccc;
     padding: 5px;
     color: #777777;
 }
-
 textarea[name="message"] {
     width: 900px;
     border: 1px solid #cccccc;
     padding: 5px;
     color: #777777;
 }
-
 input[type="submit"] {
     border: #4aaaa5;
     background-color: #4aaaa5;
@@ -199,4 +188,7 @@ input[type="submit"] {
     padding: 10px 25px;
     margin-top: 10px;
     margin-bottom: -20px;
+}
+input[type="submit"]:hover {
+    color: #00FFF2;
 }
