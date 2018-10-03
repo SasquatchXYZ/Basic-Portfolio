@@ -131,7 +131,7 @@ p#footer {
     height: 280px;
     margin: 0 auto 0 auto;
 }
-.im1,.im2,.im4,.im5 {
+.im1,.im2,.im4,.im5,.im7 {
     position: relative;
     float: left;
     margin-top: 30px;
@@ -149,7 +149,10 @@ p#footer {
     width: 275px;
 }
 
-.title1,.title2,.title3,.title4,.title5,.title6 {
+.title1,.title2,
+.title3,.title4,
+.title5,.title6,
+.title7 {
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -159,7 +162,11 @@ p#footer {
     background-color: #4aaaa5;
     text-align: center;
 }
-a#photo1,#photo2,#photo3,#photo4,#photo5,#photo6 {
+
+a#photo1,#photo2,
+#photo3,#photo4,
+#photo5,#photo6,
+#photo7 {
     position: absolute;
     left: 0;
     top: 13px;
@@ -168,7 +175,11 @@ a#photo1,#photo2,#photo3,#photo4,#photo5,#photo6 {
     width: 275px;
     font-weight: normal;
 }
-#photo1:hover,#photo2:hover,#photo3:hover,#photo4:hover,#photo5:hover,#photo6:hover {
+
+#photo1:hover,#photo2:hover,
+#photo3:hover,#photo4:hover,
+#photo5:hover,#photo6:hover,
+#photo7:hover {
     color: #00FFF2;
     text-decoration: overline;
 }
