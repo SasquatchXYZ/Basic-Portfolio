@@ -216,6 +216,8 @@ p#footer {
 .photo-row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
     height: 250px;
     margin-top: 30px;
 }
