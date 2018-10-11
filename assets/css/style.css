@@ -1,4 +1,5 @@
 /* ================================ Style that is applied throughout the page ===================================*/
+
 * {
     box-sizing: border-box;
 }
@@ -31,6 +32,7 @@ body {
 }
 
 /* ===================================== Style for the Header/Top Navigation Bar =================================*/
+
 .header {
     width: 100vw;
     height: 80px;
@@ -104,6 +106,7 @@ a:active {
 }
 
 /* ================== Style for the Main Content of the Body as well as the image on the About Me Page =============*/
+
 .wrapper {
     display: flex;
     min-height: calc(100vh - 110px);
@@ -114,10 +117,7 @@ a:active {
     margin: 0 Auto;
 }
 
-/*.wrapper {
-    display: flex;
-
-}
+/*
 .content {
     clear: both;
     min-height: calc(100vh - 110px);
@@ -144,60 +144,37 @@ a:active {
     width: 960px;
     background: #ffffff;
     padding: 30px;
+    margin-bottom: 50px;
     border: 1px solid #dddddd;
 }
 
 /* =============================================Style for the Footer ================================================*/
+
 p#footer {
     color: #ffffff;
     font-size: 10px;
-    position: relative;
     padding: 0;
-    margin-top: 15px;
+}
+
+.spacer {
+    height: 30px;
+    width: 100%
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    color: #777777;
-    text-align: center;
-    background: #666666;
     height: 50px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #666666;
     border-top: 5px solid #4aaaa5;
 }
 
 /* ===================================== Style for the Portfolio Page Styling =======================================*/
-/*#portfolio-page {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    width: 900px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-}
 
-.photo-row {
-    display: grid;
-}
-
-.photo-column {
-    display: grid;
-}
-
-.photo-card {
-    position: relative;
-    width: 275px;
-    height: 250px;
-}*/
-/*.photo-card {
-    position: relative;
-    float: left;
-    margin-top: 30px;
-    margin-right: 37.5px;
-    height: 250px;
-    width: 275px;
-}*/
 .photo-row {
     display: flex;
     justify-content: space-between;
@@ -242,6 +219,7 @@ a.photo-title {
 }
 
 /* ========================================== Style for the Contact Page Styling ===============================*/
+
 .label {
     margin: 10px 0;
 }
@@ -277,6 +255,7 @@ a.photo-title {
 }
 
 /* ================================================= Media Queries ===============================================*/
+
 @media screen and (min-width: 769px) and (max-width: 980px) {
 
 }
