@@ -1,4 +1,4 @@
-/* Code that is applied throughout the page */
+/* ================================ Style that is applied throughout the page ===================================*/
 * {
     box-sizing: border-box;
 }
@@ -30,7 +30,7 @@ body {
     background: url("../images/backgrounds/sayagata-400px.png") repeat;
 }
 
-/* Code for the Header/Top Navigation Bar */
+/* ===================================== Style for the Header/Top Navigation Bar =================================*/
 .header {
     width: 100vw;
     height: 80px;
@@ -118,7 +118,7 @@ a:active {
     color: #777777;
 }
 
-/* Code for the Main Content of the Body as well as the image on the About Me Page */
+/* ================== Style for the Main Content of the Body as well as the image on the About Me Page =============*/
 .wrapper {
     display: flex;
     min-height: calc(100vh - 110px);
@@ -162,7 +162,7 @@ a:active {
     border: 1px solid #dddddd;
 }
 
-/* Code for the Footer */
+/* =============================================Style for the Footer ================================================*/
 p#footer {
     color: #ffffff;
     font-size: 10px;
@@ -182,36 +182,53 @@ p#footer {
     border-top: 5px solid #4aaaa5;
 }
 
-/* Code for the Portfolio Page Styling */
-#row1, #row2, #row3 {
-    clear: both;
+/* ===================================== Style for the Portfolio Page Styling =======================================*/
+/*#portfolio-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 900px;
-    height: 280px;
-    margin: 0 auto 0 auto;
+    background: #ffffff;
+    border: 1px solid #dddddd;
 }
 
-.im1, .im2, .im4, .im5, .im7 {
+.photo-row {
+    display: grid;
+}
+
+.photo-column {
+    display: grid;
+}
+
+.photo-card {
+    position: relative;
+    width: 275px;
+    height: 250px;
+}*/
+/*.photo-card {
     position: relative;
     float: left;
     margin-top: 30px;
     margin-right: 37.5px;
     height: 250px;
     width: 275px;
+}*/
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-top: 30px;
 }
 
-.im3, .im6 {
-    position: relative;
-    float: right;
-    margin-top: 30px;
-    margin-right: 0;
-    height: 250px;
+.photo-column {
     width: 275px;
 }
 
-.title1, .title2,
-.title3, .title4,
-.title5, .title6,
-.title7 {
+.photo-card {
+    position: relative;
+}
+
+.title-block {
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -222,10 +239,7 @@ p#footer {
     text-align: center;
 }
 
-a#photo1, #photo2,
-#photo3, #photo4,
-#photo5, #photo6,
-#photo7 {
+a.photo-title {
     position: absolute;
     left: 0;
     top: 13px;
@@ -235,15 +249,12 @@ a#photo1, #photo2,
     font-weight: normal;
 }
 
-#photo1:hover, #photo2:hover,
-#photo3:hover, #photo4:hover,
-#photo5:hover, #photo6:hover,
-#photo7:hover {
+.photo-title:hover {
     color: #00FFF2;
     text-decoration: overline;
 }
 
-/* Code for the Contact Page Styling */
+/* ========================================== Style for the Contact Page Styling ===============================*/
 .label {
     margin: 10px 0;
 }
@@ -278,7 +289,7 @@ a#photo1, #photo2,
     color: #00FFF2;
 }
 
-/* Media Queries */
+/* ================================================= Media Queries ===============================================*/
 @media screen and (min-width: 769px) and (max-width: 980px) {
 
 }
