@@ -40,14 +40,14 @@
         <section id="about-me">
             <h1>Contact</h1>
             <hr/>
-            <p><label for="contact-name">Name</label></p>
-            <input type="text" onfocus="this.value=''" id="contact-name" value="John Smith" maxlength="100">
-            <p><label for="contact-email">Email</label></p>
-            <input type="email" onfocus="this.value=''" id="contact-email" value="example@gmail.com" maxlength="100">
-            <p><label for="contact-message">Message</label></p>
-            <textarea id="contact-message" rows="12" cols="100"></textarea>
+            <p class="label"><label for="contact-name">Name</label></p>
+            <input type="text" name="name" id="contact-name" maxlength="50" placeholder="John Smith">
+            <p class="label"><label for="contact-email">Email</label></p>
+            <input type="email" name="email" onfocus="this.value=''" id="contact-email" maxlength="50" placeholder="example@gmail.com">
+            <p class="label"><label for="contact-message">Message</label></p>
+            <textarea name="message" id="contact-message" rows="12" cols="100"></textarea>
             <br/>
-            <div class="submit"><input type="submit" value="Submit"></div>
+            <div class="submit"><input type="submit" id="submit-contact" value="Submit"></div>
         </section>
     </div>
 </div>

@@ -244,29 +244,21 @@ a#photo1, #photo2,
 }
 
 /* Code for the Contact Page Styling */
-input[type="text"] {
+.label {
+    margin: 10px 0;
+}
+
+#contact-name, #contact-email, #contact-message {
     width: 900px;
     border: 1px solid #cccccc;
+    border-radius: 5px;
     padding: 5px;
     color: #777777;
 }
 
-input[type="email"] {
-    width: 900px;
-    border: 1px solid #cccccc;
-    padding: 5px;
-    color: #777777;
-}
-
-textarea[name="message"] {
-    width: 900px;
-    border: 1px solid #cccccc;
-    padding: 5px;
-    color: #777777;
-}
-
-input[type="submit"] {
+#submit-contact {
     border: #4aaaa5;
+    border-radius: 5px;
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 10px 25px;
@@ -274,7 +266,15 @@ input[type="submit"] {
     margin-bottom: -20px;
 }
 
-input[type="submit"]:hover {
+#contact-name:hover, #contact-email:hover, #contact-message:hover {
+    border: 1px solid #4aaaa5;
+}
+
+#contact-name:focus, #contact-email:focus, #contact-message:focus {
+    border: 1px solid #00FFF2;
+}
+
+#submit-contact:hover {
     color: #00FFF2;
 }
 
