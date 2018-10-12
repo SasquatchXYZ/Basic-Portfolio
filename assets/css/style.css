@@ -13,7 +13,7 @@ p {
     text-indent: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
@@ -21,6 +21,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 2em;
     font-weight: bold;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkorange;
+    margin: 10px;
+}
+
+h5 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: darkblue;
+    margin: 5px;
 }
 
 body {
@@ -221,8 +236,12 @@ a.photo-title {
 }
 
 /* ========================================== Style for the Contact Page Styling ===============================*/
+#contact-info {
+    text-align: center;
+}
 
-.label {
+
+/*.label {
     margin: 10px 0;
 }
 
@@ -254,7 +273,7 @@ a.photo-title {
 
 #submit-contact:hover {
     color: #00FFF2;
-}
+}*/
 
 /* ================================================= Media Queries ===============================================*/
 
@@ -294,9 +313,6 @@ a.photo-title {
         width: 200px;
     }
 
-    #contact-name, #contact-email, #contact-message {
-        max-width: 631px;
-    }
 }
 
 @media screen and (max-width: 640px) {
