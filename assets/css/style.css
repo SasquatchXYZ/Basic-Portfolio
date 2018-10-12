@@ -355,6 +355,34 @@ a.photo-title {
         text-align: justify;
     }
 
+    .photo-row {
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+    }
+
+    .photo-column {
+        width: 100%;
+    }
+    .photo-card, .portfolio-thumb{
+        margin-top: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+
+    h5 {
+        margin: 12px 0;
+    }
+    #my-email {
+        font-size: 14px;
+    }
+
+    .icons {
+        padding: 10px;
+    }
+
+
 
 
 }
