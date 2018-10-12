@@ -294,12 +294,38 @@ a.photo-title {
         width: 200px;
     }
 
-
     #contact-name, #contact-email, #contact-message {
         max-width: 631px;
     }
 }
 
 @media screen and (max-width: 640px) {
+    #nav-title {
+        text-align: center;
+        height: 60px;
+        width: 100%;
+    }
+
+    #portfolio-name {
+        height: 60px;
+        width: 100%;
+    }
+
+    #nav {
+        width: 100%;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+
+    #profile-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .tab {
+        text-align: justify;
+    }
+
+
 
 }
