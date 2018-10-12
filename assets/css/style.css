@@ -220,7 +220,7 @@ p#footer {
     text-align: center;
 }
 
-a.photo-title {
+h4.photo-title {
     position: absolute;
     left: 0;
     top: 13px;
@@ -230,9 +230,18 @@ a.photo-title {
     font-weight: normal;
 }
 
-.photo-title:hover {
+a.git-site {
+    color: #ffffff;
+}
+
+.git-site:hover {
     color: #00FFF2;
     text-decoration: overline;
+}
+
+.git-hub:hover {
+    border: 1px solid #00FFF2;
+
 }
 
 /* ========================================== Style for the Contact Page Styling ===============================*/
