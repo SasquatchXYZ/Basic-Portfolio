@@ -239,9 +239,12 @@ a.git-site {
     text-decoration: overline;
 }
 
-.git-hub:hover {
-    border: 1px solid #00FFF2;
+.fa-github {
+    color: #ffffff;
+}
 
+.fa-github:hover {
+    color: #00FFF2;
 }
 
 /* ========================================== Style for the Contact Page Styling ===============================*/
@@ -262,40 +265,26 @@ a.git-site {
     height: 50px;
 }
 
-
-/*.label {
-    margin: 10px 0;
+.fa-linkedin {
+    color: #0077b5
 }
 
-#contact-name, #contact-email, #contact-message {
-    width: 900px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    padding: 5px;
-    color: #777777;
+.fa-github-square {
+    color: #24292e;
 }
 
-#submit-contact {
-    border: #4aaaa5;
-    border-radius: 5px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 10px 25px;
-    margin-top: 10px;
-    margin-bottom: -20px;
+.fa-linkedin:hover {
+    color: #007f79;
 }
 
-#contact-name:hover, #contact-email:hover, #contact-message:hover {
-    border: 1px solid #4aaaa5;
+.fa-github-square:hover {
+    color: #007f79;
 }
 
-#contact-name:focus, #contact-email:focus, #contact-message:focus {
-    border: 1px solid #00FFF2;
+a.resume:hover {
+    text-decoration: line-through;
+    color: #007f79;
 }
-
-#submit-contact:hover {
-    color: #00FFF2;
-}*/
 
 /* ================================================= Media Queries ===============================================*/
 
