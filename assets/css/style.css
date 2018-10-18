@@ -319,7 +319,8 @@ a.resume:hover {
     .photo-column {
         width: 200px;
     }
-    .photo-card, .portfolio-thumb{
+
+    .photo-card, .portfolio-thumb {
         height: 200px;
         width: 200px;
     }
@@ -362,16 +363,17 @@ a.resume:hover {
     .photo-column {
         width: 100%;
     }
-    .photo-card, .portfolio-thumb{
+
+    .photo-card, .portfolio-thumb {
         margin-top: 10px;
         height: auto;
         width: 100%;
     }
 
-
     h5 {
         margin: 12px 0;
     }
+
     #my-email {
         font-size: 14px;
     }
@@ -379,8 +381,5 @@ a.resume:hover {
     .icons {
         padding: 10px;
     }
-
-
-
 
 }

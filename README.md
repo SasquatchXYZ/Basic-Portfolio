@@ -1,6 +1,6 @@
 # Basic-Portfolio
 
-This is the first draft of my portfolio done for Homework Assignment #1 done simply using HTML and CSS.  I have gone back to make revisions and clean up the code not only for functionality, but to make everything easier to read.  This is by no means the last time I will return to make changes to my portfolio... it just also gave me a space to play around in.
+This is the first draft of my portfolio done for Homework Assignment #1 done simply using HTML and CSS.  I have gone back to make revisions and clean up the code not only for functionality, but to make everything easier to read.  This is by no means the last time I will return to make changes to my portfolio... it just also gave me a space to play around in.  I am always working on updating and modifying the appearance and implementing new things as I learn.
 
 ## Getting Started
 
