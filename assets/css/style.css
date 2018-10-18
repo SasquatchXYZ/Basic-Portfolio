@@ -6,7 +6,7 @@
 
 p {
     line-height: 20px;
-    color: #777777;
+    color: #272727;
 }
 
 .tab {
@@ -15,7 +15,7 @@ p {
 
 h1, h2, h4, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #4aaaa5;
+    color: #FF7900;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 1.5em;
     font-weight: bold;
-    color: darkorange;
+    color: #FF7900;
     margin: 10px;
 }
 
@@ -43,7 +43,7 @@ body {
     height: 100%;
     position: relative;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: url("../images/backgrounds/sayagata-400px.png") repeat;
+    background: url("../images/backgrounds/escheresque_ste.png") repeat;
 }
 
 /* ===================================== Style for the Header/Top Navigation Bar =================================*/
@@ -53,7 +53,7 @@ body {
     height: 80px;
     margin-top: 0;
     margin-bottom: 30px;
-    background: #ffffff;
+    background: #1f1f1f;
     border-bottom: 1px solid #cccccc;
 }
 
@@ -67,7 +67,7 @@ body {
 
 #nav-title {
     height: 80px;
-    background: #4aaaa5;
+    background: #FF7900;
     border-bottom: 1px solid #cccccc;
     margin: 0;
     line-height: 80px;
@@ -77,7 +77,7 @@ body {
 #portfolio-name {
     font-size: 2em;
     font-weight: bold;
-    color: #ffffff;
+    color: #1F1F1F;
 }
 
 #nav {
@@ -111,13 +111,13 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: line-through;
-    color: #777777;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 a:active {
     text-decoration: none;
-    color: #777777;
+    color: #FF7900;
 }
 
 /* ================== Style for the Main Content of the Body as well as the image on the About Me Page =============*/
@@ -148,6 +148,7 @@ a:active {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .profile {
@@ -157,10 +158,10 @@ a:active {
 
 #about-me {
     width: 960px;
-    background: #ffffff;
+    background: #E5E5E5;
     padding: 30px;
     margin-bottom: 50px;
-    border: 1px solid #dddddd;
+    border: 1px solid #1F1F1F;
 }
 
 /* =============================================Style for the Footer ================================================*/
@@ -184,8 +185,8 @@ p#footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #666666;
-    border-top: 5px solid #4aaaa5;
+    background: #1F1F1F;
+    border-top: 5px solid #FF7900;
 }
 
 /* ===================================== Style for the Portfolio Page Styling =======================================*/
@@ -209,14 +210,19 @@ p#footer {
     position: relative;
 }
 
+.portfolio-thumb {
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #1F1F1F;
+}
+
 .title-block {
     position: absolute;
     bottom: 10px;
     left: 0;
     width: 100%;
     height: 45px;
-    color: #ffffff;
-    background-color: #4aaaa5;
+    color: #777777;
+    background-color: #FF7900;
     text-align: center;
 }
 
@@ -224,7 +230,7 @@ h4.photo-title {
     position: absolute;
     left: 0;
     top: 13px;
-    color: #ffffff;
+    color: #1F1F1F;
     height: 45px;
     width: 100%;
     font-weight: normal;
@@ -235,8 +241,8 @@ a.git-site {
 }
 
 .git-site:hover {
-    color: #00FFF2;
-    text-decoration: overline;
+    color: #1F1F1F;
+    text-decoration: none;
 }
 
 .fa-github {
@@ -244,7 +250,7 @@ a.git-site {
 }
 
 .fa-github:hover {
-    color: #00FFF2;
+    color: #1F1F1F;
 }
 
 /* ========================================== Style for the Contact Page Styling ===============================*/
@@ -274,16 +280,19 @@ a.git-site {
 }
 
 .fa-linkedin:hover {
-    color: #007f79;
+    color: #FF7900;
 }
 
 .fa-github-square:hover {
-    color: #007f79;
+    color: #FF7900;
+}
+
+a.resume {
+    color: #1F1F1F;
 }
 
 a.resume:hover {
-    text-decoration: line-through;
-    color: #007f79;
+    color: #FF7900;
 }
 
 /* ================================================= Media Queries ===============================================*/
