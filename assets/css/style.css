@@ -307,6 +307,10 @@ a.git-site {
     color: #ffffff;
 }
 
+.dark {
+    color: #1F1F1F;
+}
+
 .fa-github:hover {
     color: #1F1F1F;
 }
